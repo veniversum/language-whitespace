@@ -1,0 +1,13 @@
+'scopeName': 'source.whitespace'
+'name': 'Whitespace'
+'fileTypes': ['ws']
+'patterns': [
+  {
+    'match': '\\t'
+    'name': 'whitespace.char.tab'
+  },
+  {
+    'match': '\u0020'
+    'name': 'whitespace.char.space'
+  }
+]

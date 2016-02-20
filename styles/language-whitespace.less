@@ -1,0 +1,11 @@
+@import "ui-variables";
+
+atom-text-editor,
+atom-text-editor::shadow  {
+  .whitespace.char.tab {
+    border-bottom: thin solid  @text-color-warning;
+  }
+  .whitespace.char.space {
+    border-bottom: thin solid  @text-color-info;
+  }
+}
