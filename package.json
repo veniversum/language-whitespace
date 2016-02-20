@@ -1,13 +1,14 @@
 {
   "name": "language-whitespace",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Whitespace support for Atom",
-  "keywords": ["whitespace"],
+  "keywords": [
+    "whitespace"
+  ],
   "repository": "https://github.com/veniversum/language-whitespace",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
