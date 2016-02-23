@@ -3,11 +3,19 @@
 'fileTypes': ['ws']
 'patterns': [
   {
-    'match': '\\t'
+    'match': '\t'
     'name': 'whitespace.char.tab'
   },
   {
     'match': '\u0020'
     'name': 'whitespace.char.space'
+  },
+  {
+    'match': '\n'
+    'name': 'whitespace.char.return'
+  },
+  {
+    'match': '\r'
+    'name': 'whitespace.char.return'
   }
-]
+ ]

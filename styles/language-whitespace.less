@@ -2,10 +2,20 @@
 
 atom-text-editor,
 atom-text-editor::shadow  {
-  .whitespace.char.tab {
-    border-bottom: thin solid  @text-color-warning;
-  }
-  .whitespace.char.space {
-    border-bottom: thin solid  @text-color-info;
-  }
+    .whitespace.char.tab {
+        //border-bottom: thin solid  @text-color-warning;
+        color: @text-color-warning !important;
+        //background-color: @text-color-warning !important;
+    }
+    .whitespace.char.space {
+        //border-bottom: thin solid  @text-color-info;
+        color: @text-color-info !important;
+        //background-color: @text-color-info !important;
+    }
+    .whitespace.char.return {
+        //border-bottom: thin solid  @text-color-info;
+    }
+    .invisible-character {
+        color: inherit;
+    }
 }

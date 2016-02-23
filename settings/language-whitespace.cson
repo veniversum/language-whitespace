@@ -1,0 +1,17 @@
+'.source.whitespace':
+	'editor':
+		'autoIndent': false
+		'autoIndentOnPaste': false
+		'invisibles':
+			'tab': 't'
+			'eol': 'r'
+			'space': 's'
+		'softTabs': false
+		'showInvisibles': true
+		'showIndentGuide': false
+		'softWrap': false
+		'tabLength': 1
+		'tabType': "hard"
+	'whitespace':
+		'ensureSingleTrailingNewline': false
+		'removeTrailingWhitespace': false
