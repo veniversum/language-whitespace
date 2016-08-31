@@ -4,7 +4,8 @@
 		'autoIndentOnPaste': false
 		'invisibles':
 			'tab': 't'
-			'eol': 'r'
+			'eol': '¬'
+			'cr': ''
 			'space': 's'
 		'softTabs': false
 		'showInvisibles': true
