@@ -1,19 +1,12 @@
 @import "ui-variables";
 
 atom-text-editor,
-atom-text-editor::shadow  {
-    .whitespace.char.tab {
-        //border-bottom: thin solid  @text-color-warning;
+atom-text-editor.editor  {
+    .syntax--whitespace.syntax--char.syntax--tab {
         color: @text-color-warning !important;
-        //background-color: @text-color-warning !important;
     }
-    .whitespace.char.space {
-        //border-bottom: thin solid  @text-color-info;
+    .syntax--whitespace.syntax--char.syntax--space {
         color: @text-color-info !important;
-        //background-color: @text-color-info !important;
-    }
-    .whitespace.char.return {
-        //border-bottom: thin solid  @text-color-info;
     }
     .invisible-character {
         color: inherit;
